@@ -18,9 +18,13 @@
     align-items: top;
     justify-content: space-between;
 }
+
 .logo{
     width: 120px;
     cursor: pointer;
+    border-radius: 50%;
+    outline-width: 10px;
+    outline-offset: 10px;
 }
 .navbar ul li{
     list-style: none;
@@ -37,7 +41,7 @@
     content: "";
     height: 3px;
     width: 0;
-    background: #b3048d;
+    background: #383838;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -70,7 +74,7 @@
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #af3eb9;
+    border: 2px solid #2f3036;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -94,4 +98,12 @@ button:hover span{
 }
 button:hover{
     border: none;
+}
+.shop{
+    padding: 0;
+    margin: auto;
+}
+.item1{
+    width: 350px;
+    height: 150px;
 }

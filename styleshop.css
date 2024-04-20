@@ -56,6 +56,59 @@ header{
     align-items: center;
     gap: 2rem;
 }
+
+.hero2{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #678039 0%, #7d9b45 28.53%, #527415 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero2-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+.hero2-text h1{
+    font-family: "Trade Winds", system-ui;
+    font-size: 90px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
+}
+.hero2-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+.hero2-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+
+.item1 img{
+    cursor: pointer;
+    border-radius: 35%;
+    background-color: black;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: -489px;
+    height: 150px;
+    width: 175px;
+}
+
+
+
+
 section{
     padding: 0 19%;
 }
@@ -132,12 +185,12 @@ section{
     color: #4d9559;
     transform: translateY(-5px);
 }
-.scroll-down{
+.scrolldown{
     position: absolute;
     bottom: 6%;
     right: 9%;
 }
-.scroll-down i{
+.scrolldown i{
     display: block;
     padding: 12px;
     font-size: 25px;
@@ -146,7 +199,7 @@ section{
     border-radius: 30px;
     transition: all .55s ease;
 }
-.scroll-down i:hover{
+.scrolldown i:hover{
     transform: translateY(-5px);
 }
 
@@ -159,7 +212,7 @@ section{
         padding: 0 3%;
         transition: .2s;
     }
-    .scroll-down{
+    .scrolldown{
         padding: 0 3%;
         transition: .2s;
     }
@@ -206,7 +259,7 @@ section{
     .icons{
         display: none;
     }
-    .scroll-down{
+    .scrolldown{
         display: none;
     }
 }

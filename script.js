@@ -18,3 +18,9 @@ sr.reveal('.hero-img', {delay:450, origin:'top'})
 sr.reveal('.icons', {delay: 500, origin:'left'})
 sr.reveal('.scroll-down', {delay: 590, origin:'left'})
 sr.reveal('.scroll-down', {delay: 590, origin:'right'})
+
+function scrolldown()
+{
+    var height = document.body.scrollHeight;
+    window.scroll(0, height);
+}
